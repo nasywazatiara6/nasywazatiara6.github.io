@@ -180,6 +180,68 @@
                         <li><strong>Open in New Window</strong>: Membuka sesi di jendela baru setelah mengklik Connect.</li>
             </section>
 
+            <section>
+                <h2 class="section-title">Laporan 2</h2>
+                <title>Langkah Penggunaan Mikrotik</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                         }
+                    .container {
+                        max-width: 800px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        }   
+                    .title {
+                        text-align: center;
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                        }
+                    .section-title {
+                        font-size: 20px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        }
+                    .list {
+                        margin-left: 20px;
+                        }
+                    .step {
+                    margin-top: 10px;
+                    }
+                </style>
+                </head>
+                <body>
+                <div class="container">
+        <div class="title">Langkah Penggunaan Mikrotik</div>
+
+        <div class="section">
+            <div class="section-title">Alat dan Bahan</div>
+            <ul class="list">
+                <li>Mikrotik</li>
+                <li>Kabel LAN</li>
+                <li>Internet</li>
+                <li>Laptop</li>
+                <li>Aplikasi Winbox</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Langkah-langkah</div>
+            <ol class="list">
+                <li class="step">Siapkan mikrotik dan kabel LAN, tancapkan kabel LAN ke port LAN di laptop dan hubungkan juga dengan port LAN pada mikrotik.</li>
+                <li class="step">Buka aplikasi Winbox yang sudah diinstall.</li>
+                <li class="step">Pada tampilan awal Winbox, klik MAC Address di bagian Neighbors, lalu login menggunakan admin tanpa mengisi password, kemudian klik connect.</li>
+                <li class="step">Buka menu <strong>IP > Addresses</strong>, tambahkan alamat IP <strong>192.168.1/24</strong>.</li>
+                <li class="step">Tambahkan DNS, sesuaikan dengan konfigurasi yang dibutuhkan, lalu klik Apply dan OK.</li>
+                <li class="step">Buka menu <strong>IP > Firewall</strong>, pada bagian NAT, klik tambah, pilih tab Action, dan pilih masquerade, kemudian klik Apply dan OK.</li>
+                <li class="step">Buka menu <strong>DHCP Setup</strong>, pilih bridge1, lalu klik Next.</li>
+                <li class="step">Setelah selesai, simpan konfigurasi yang telah dibuat.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+            </section>
+
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
